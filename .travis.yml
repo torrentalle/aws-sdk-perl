@@ -1,7 +1,7 @@
 
 language: perl
 env:
-  - IN_TRAVIS=1 AUTHOR_TESTING=1 PERL_MB_OPT="quiet=1"
+  - IN_TRAVIS=1 AUTHOR_TESTING=1 PERL_MB_OPT="--quiet"
 perl:
   - "dev"
   - "5.28"
